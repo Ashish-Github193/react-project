@@ -91,7 +91,7 @@ function Pagination({ index, setIndex, dataLength, MaxNameCardPerPage }) {
 }
 
 export default function App() {
-  const MaxNameCardPerPage = 10;
+  const MaxNameCardPerPage = 20;
   const [index, setIndex] = useState(1);
 
   return (
